@@ -5,4 +5,4 @@ bot.registry.registerGroup('random', 'Random');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
-bot.login('MzkxMzgzOTIzNDg3Mjc3MDYx.DRX4NQ.gOpAfWbwFLjGm4yC_CSvQdQCECg');
+bot.login('MzkxMzgzOTIzNDg3Mjc3MDYx.DXAxzw.0soSDcw3FlYS8dGEjpeBqSG5iIs');
