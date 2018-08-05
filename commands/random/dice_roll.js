@@ -6,13 +6,13 @@ class DiceRollCommand extends commando.Command {
             name: 'roll',
             group: 'random',
             memberName: 'roll',
-            description: 'Rolls a die',
+            description: 'Rola um dado',
         });
     }
 
     async run(message, args){
             var roll = Math.floor(Math.random() * 6) + 1;
-            message.reply("You rolled a " + roll);
+            message.reply("Você rolou um dado:" + roll);
         }
 }
 
